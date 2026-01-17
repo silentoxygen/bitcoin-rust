@@ -1,0 +1,16 @@
+[package]
+name = "btc-from-scratch"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "btc_from_scratch"
+path = "src/lib.rs"
+
+[[bin]]
+name = "btc-from-scratch"
+path = "src/main.rs"
+
+[features]
+default = []
+osrng = []
